@@ -7,7 +7,8 @@ Usage:
 * Build the library, include it in your Xcode project.
 * Add UIFileSharingEnabled to your Info.plist.
 * Add trace calls in your code. See https://github.com/mainroach/sandbox/blob/master/chrome-event-trace/HOWTO.txt
-* If you're using this fom Unity. Call EventTracer.StartTracing().
+* If you're using this fom Unity. Call EventTracer.StartTracing(). Else call [[EventTracer sharedInstance] StartTracing];
+* Call EventTracer.StopTracing() or [[EventTracer sharedInstance] StopTracing];
 
 Viewing Trace:
 * In ITunes, select your device, select Apps, go to File Sharing. 
