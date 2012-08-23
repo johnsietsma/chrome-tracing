@@ -13,28 +13,12 @@
 		6942043115E5A8D100C96FB1 /* event_trace_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6942042915E5A8D100C96FB1 /* event_trace_impl.h */; };
 		6942043215E5A8D100C96FB1 /* event_trace_plat.h in Headers */ = {isa = PBXBuildFile; fileRef = 6942042A15E5A8D100C96FB1 /* event_trace_plat.h */; };
 		694B183F15E5A708001CCA0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694B183E15E5A708001CCA0B /* Foundation.framework */; };
-		694B184D15E5A708001CCA0B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694B184C15E5A708001CCA0B /* SenTestingKit.framework */; };
-		694B184F15E5A708001CCA0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694B184E15E5A708001CCA0B /* UIKit.framework */; };
-		694B185015E5A708001CCA0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694B183E15E5A708001CCA0B /* Foundation.framework */; };
-		694B185315E5A708001CCA0B /* libchrome-tracing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 694B183B15E5A708001CCA0B /* libchrome-tracing.a */; };
-		694B185915E5A708001CCA0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 694B185715E5A708001CCA0B /* InfoPlist.strings */; };
-		694B185C15E5A708001CCA0B /* chrome_tracingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 694B185B15E5A708001CCA0B /* chrome_tracingTests.m */; };
 		694B188515E5A865001CCA0B /* chrome-tracing-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 694B188015E5A865001CCA0B /* chrome-tracing-Prefix.pch */; };
 		694B188615E5A865001CCA0B /* EventTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 694B188115E5A865001CCA0B /* EventTracer.h */; };
 		694B188715E5A865001CCA0B /* EventTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 694B188215E5A865001CCA0B /* EventTracer.mm */; };
 		694B188815E5A865001CCA0B /* FileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 694B188315E5A865001CCA0B /* FileLogger.h */; };
 		694B188915E5A865001CCA0B /* FileLogger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 694B188415E5A865001CCA0B /* FileLogger.mm */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		694B185115E5A708001CCA0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 694B183215E5A708001CCA0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 694B183A15E5A708001CCA0B;
-			remoteInfo = "chrome-tracing";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6942042615E5A8D100C96FB1 /* event_trace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = event_trace.cpp; sourceTree = "<group>"; };
@@ -46,13 +30,7 @@
 		6942049F15E5E4C100C96FB1 /* ThreadLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadLocalStorage.h; sourceTree = "<group>"; };
 		694B183B15E5A708001CCA0B /* libchrome-tracing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libchrome-tracing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		694B183E15E5A708001CCA0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		694B184B15E5A708001CCA0B /* chrome-tracingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chrome-tracingTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		694B184C15E5A708001CCA0B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		694B184E15E5A708001CCA0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		694B185615E5A708001CCA0B /* chrome-tracingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chrome-tracingTests-Info.plist"; sourceTree = "<group>"; };
-		694B185815E5A708001CCA0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		694B185A15E5A708001CCA0B /* chrome_tracingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chrome_tracingTests.h; sourceTree = "<group>"; };
-		694B185B15E5A708001CCA0B /* chrome_tracingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chrome_tracingTests.m; sourceTree = "<group>"; };
 		694B188015E5A865001CCA0B /* chrome-tracing-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "chrome-tracing-Prefix.pch"; sourceTree = "<group>"; };
 		694B188115E5A865001CCA0B /* EventTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTracer.h; sourceTree = "<group>"; };
 		694B188215E5A865001CCA0B /* EventTracer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EventTracer.mm; sourceTree = "<group>"; };
@@ -66,17 +44,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				694B183F15E5A708001CCA0B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		694B184715E5A708001CCA0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				694B184D15E5A708001CCA0B /* SenTestingKit.framework in Frameworks */,
-				694B184F15E5A708001CCA0B /* UIKit.framework in Frameworks */,
-				694B185015E5A708001CCA0B /* Foundation.framework in Frameworks */,
-				694B185315E5A708001CCA0B /* libchrome-tracing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +69,6 @@
 			children = (
 				6942042515E5A8D100C96FB1 /* chrome-event-trace */,
 				694B184015E5A708001CCA0B /* chrome-tracing */,
-				694B185415E5A708001CCA0B /* chrome-tracingTests */,
 				694B183D15E5A708001CCA0B /* Frameworks */,
 				694B183C15E5A708001CCA0B /* Products */,
 			);
@@ -112,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				694B183B15E5A708001CCA0B /* libchrome-tracing.a */,
-				694B184B15E5A708001CCA0B /* chrome-tracingTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,7 +87,6 @@
 			children = (
 				694B183E15E5A708001CCA0B /* Foundation.framework */,
 				694B184C15E5A708001CCA0B /* SenTestingKit.framework */,
-				694B184E15E5A708001CCA0B /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,25 +97,6 @@
 				694B187F15E5A865001CCA0B /* chrome-tracing */,
 			);
 			path = "chrome-tracing";
-			sourceTree = "<group>";
-		};
-		694B185415E5A708001CCA0B /* chrome-tracingTests */ = {
-			isa = PBXGroup;
-			children = (
-				694B185A15E5A708001CCA0B /* chrome_tracingTests.h */,
-				694B185B15E5A708001CCA0B /* chrome_tracingTests.m */,
-				694B185515E5A708001CCA0B /* Supporting Files */,
-			);
-			path = "chrome-tracingTests";
-			sourceTree = "<group>";
-		};
-		694B185515E5A708001CCA0B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				694B185615E5A708001CCA0B /* chrome-tracingTests-Info.plist */,
-				694B185715E5A708001CCA0B /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		694B187F15E5A865001CCA0B /* chrome-tracing */ = {
@@ -203,25 +148,6 @@
 			productReference = 694B183B15E5A708001CCA0B /* libchrome-tracing.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		694B184A15E5A708001CCA0B /* chrome-tracingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 694B186215E5A708001CCA0B /* Build configuration list for PBXNativeTarget "chrome-tracingTests" */;
-			buildPhases = (
-				694B184615E5A708001CCA0B /* Sources */,
-				694B184715E5A708001CCA0B /* Frameworks */,
-				694B184815E5A708001CCA0B /* Resources */,
-				694B184915E5A708001CCA0B /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				694B185215E5A708001CCA0B /* PBXTargetDependency */,
-			);
-			name = "chrome-tracingTests";
-			productName = "chrome-tracingTests";
-			productReference = 694B184B15E5A708001CCA0B /* chrome-tracingTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,37 +170,9 @@
 			projectRoot = "";
 			targets = (
 				694B183A15E5A708001CCA0B /* chrome-tracing */,
-				694B184A15E5A708001CCA0B /* chrome-tracingTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		694B184815E5A708001CCA0B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				694B185915E5A708001CCA0B /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		694B184915E5A708001CCA0B /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		694B183715E5A708001CCA0B /* Sources */ = {
@@ -288,34 +186,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		694B184615E5A708001CCA0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				694B185C15E5A708001CCA0B /* chrome_tracingTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		694B185215E5A708001CCA0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 694B183A15E5A708001CCA0B /* chrome-tracing */;
-			targetProxy = 694B185115E5A708001CCA0B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		694B185715E5A708001CCA0B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				694B185815E5A708001CCA0B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		694B185D15E5A708001CCA0B /* Debug */ = {
@@ -384,36 +255,6 @@
 			};
 			name = Release;
 		};
-		694B186315E5A708001CCA0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "chrome-tracing/chrome-tracing-Prefix.pch";
-				INFOPLIST_FILE = "chrome-tracingTests/chrome-tracingTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		694B186415E5A708001CCA0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "chrome-tracing/chrome-tracing-Prefix.pch";
-				INFOPLIST_FILE = "chrome-tracingTests/chrome-tracingTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -431,15 +272,6 @@
 			buildConfigurations = (
 				694B186015E5A708001CCA0B /* Debug */,
 				694B186115E5A708001CCA0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		694B186215E5A708001CCA0B /* Build configuration list for PBXNativeTarget "chrome-tracingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				694B186315E5A708001CCA0B /* Debug */,
-				694B186415E5A708001CCA0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
