@@ -5,5 +5,12 @@ Uses code from: https://github.com/mainroach/sandbox via a submodule.
 
 Usage:
 * Build the library, include it in your Xcode project.
+* Add UIFileSharingEnabled to your Info.plist.
 * Add trace calls in your code. See https://github.com/mainroach/sandbox/blob/master/chrome-event-trace/HOWTO.txt
 * If you're using this fom Unity. Call EventTracer.StartTracing().
+
+Viewing Trace:
+* In ITunes, select your device, select Apps, go to File Sharing. 
+* Select your app and download event-trace.json.
+* Open event-trace.json. Find and replace and double commas with single commas. Remove the last comma on the list of events.
+* Open event-trace.json in chrome://tracing.
