@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-public static class ChromeEventTracing {
+public static class EventTracer {
 
     [DllImport ("__Internal")]
     public static extern void StartTracing();

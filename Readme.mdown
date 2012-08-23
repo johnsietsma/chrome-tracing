@@ -1,0 +1,9 @@
+This is an iOS static library with C interface for writing event datra compatible with Chrome's chrome://tracing tool.
+
+Inspired by http://www.altdevblogaday.com/2012/08/21/using-chrometracing-to-view-your-inline-profiling-data/
+Uses code from: https://github.com/mainroach/sandbox via a submodule.
+
+Usage:
+* Build the library, include it in your Xcode project.
+* Add trace calls in your code. See https://github.com/mainroach/sandbox/blob/master/chrome-event-trace/HOWTO.txt
+* If you're using this fom Unity. Call EventTracer.StartTracing().
